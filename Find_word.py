@@ -27,7 +27,7 @@ def corretion(path : str):
     wb.save("correction_result.xlsx")
 
 if __name__ == "__main__":
-    path = r"엑셀 파일 절대 경로"
+    path = r"test_main_spl"
 
     #함수 실행
     corretion(path)
